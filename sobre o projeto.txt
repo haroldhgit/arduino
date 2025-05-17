@@ -1,0 +1,27 @@
+Projeto Arduino: Controle de Servo Motores com Ritmo Cardíaco
+Descrição
+Este projeto utiliza um sensor de frequência cardíaca para controlar dois servo motores de acordo com os batimentos do usuário. O primeiro servo oscila conforme o BPM (batimentos por minuto), enquanto o segundo servo pulsa 10 graus seguindo o ritmo do coração.
+Componentes Utilizados
+- Arduino Uno (ou qualquer placa compatível)
+- Sensor de frequência cardíaca (KY-039, MAX30100, ou similar)
+- 2 Servo motores SG90
+- Jumpers para conexão
+- Fonte de alimentação compatível
+
+Funcionamento
+- O sensor lê os batimentos cardíacos do usuário.
+- O Arduino processa os dados e converte os valores em BPM (batimentos por minuto).
+- O primeiro servo motor ajusta sua posição de acordo com o BPM lido.
+- O segundo servo motor pulsa 10 graus (5 para frente e 5 para trás) no ritmo do coração.
+- O sistema adapta a frequência da pulsação conforme a variação dos batimentos.
+
+Aplicações
+- Monitoramento biométrico interativo: Ideal para exibir visualmente os batimentos cardíacos de um usuário.
+- Projeto educacional: Ótima aplicação para entender a interação entre sensores e atuadores.
+- Efeitos para cosplay ou arte tecnológica: Pode ser usado para criar movimentos sincronizados ao ritmo do coração.
+- Experimentos de biofeedback: Útil para estudos sobre resposta corporal e interação com sistemas computacionais.
+Melhorias Futuras
+- Implementar um filtro para suavizar a leitura do sensor.
+- Adicionar um display LCD para mostrar o BPM em tempo real.
+- Criar um sistema de áudio que altera o ritmo da música conforme os batimentos cardíacos.
+
