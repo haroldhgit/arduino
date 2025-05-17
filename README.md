@@ -1,4 +1,3 @@
-
 #include <Servo.h>  // Biblioteca do servo motor
 
 Servo servoMotor1;  // Primeiro servo (oscila conforme o BPM)
